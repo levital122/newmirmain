@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Noviy Mir - High-Tech HoReCa Solutions</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#007fff",
+                        "background-light": "#ffffff",
+                        "background-dark": "#0f1923",
+                        "tech-gray": "#6C757D",
+                        "ice-blue": "#e6edf4"
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0rem", "lg": "0.125rem", "xl": "0.25rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#0c141d] dark:text-white font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<!-- Top Bar Navigation -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-[#e6edf4] bg-white/90 dark:bg-background-dark/90 backdrop-blur-md px-10 py-3">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-4 text-[#0c141d] dark:text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-xl font-extrabold leading-tight tracking-tight">NOVIY MIR</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-9">
+<a class="text-sm font-semibold hover:text-primary transition-colors uppercase tracking-wider" href="#">Equipment</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors uppercase tracking-wider" href="#">Systems</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors uppercase tracking-wider" href="#">Engineering</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors uppercase tracking-wider" href="#">Support</a>
+</nav>
+</div>
+<div class="flex flex-1 justify-end gap-6 items-center">
+<label class="flex flex-col min-w-40 !h-10 max-w-64">
+<div class="flex w-full flex-1 items-stretch rounded h-full bg-ice-blue dark:bg-slate-800">
+<div class="text-tech-gray flex items-center justify-center pl-4">
+<span class="material-symbols-outlined text-xl">search</span>
+</div>
+<input class="form-input flex w-full min-w-0 flex-1 border-none bg-transparent focus:outline-0 focus:ring-0 h-full placeholder:text-tech-gray px-4 pl-2 text-sm font-normal" placeholder="Technical search..." value=""/>
+</div>
+</label>
+<button class="flex min-w-[120px] cursor-pointer items-center justify-center rounded h-10 px-6 bg-primary text-white text-xs font-bold uppercase tracking-widest hover:bg-blue-700 transition-all">
+                Get Engineering Spec
+            </button>
+</div>
+</header>
+<main class="flex-1">
+<!-- Hero Section -->
+<section class="max-w-[1200px] mx-auto px-4 py-16">
+<div class="@container">
+<div class="flex flex-col gap-10 @[864px]:flex-row items-center">
+<div class="flex flex-col gap-8 flex-1 @[864px]:justify-center">
+<div class="flex flex-col gap-4 text-left">
+<span class="text-primary font-bold tracking-[0.2em] text-xs uppercase">Precision Manufacturing</span>
+<h1 class="text-[#0c141d] dark:text-white text-5xl font-black leading-tight tracking-[-0.03em] @[1024px]:text-7xl">
+                                High-Tech <br/><span class="text-primary">Professional</span> Solutions
+                            </h1>
+<p class="text-tech-gray dark:text-slate-400 text-lg font-normal leading-relaxed max-w-lg">
+                                Next-generation HoReCa equipment engineered for precision, sustainability, and modular integration.
+                            </p>
+</div>
+<div class="flex flex-wrap gap-4">
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded h-12 px-8 bg-primary text-white text-sm font-bold uppercase tracking-widest hover:shadow-lg transition-all">
+<span>Core Catalog</span>
+</button>
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded h-12 px-8 border border-[#cddbea] dark:border-slate-700 text-[#0c141d] dark:text-white text-sm font-bold uppercase tracking-widest hover:bg-ice-blue dark:hover:bg-slate-800 transition-all">
+<span>Partner Portal</span>
+</button>
+</div>
+</div>
+<div class="w-full flex-1 h-[500px] bg-center bg-no-repeat bg-cover border border-[#e6edf4] p-4 bg-white shadow-2xl" data-alt="Modern high-tech industrial kitchen with stainless steel modular equipment" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCiPNkI8ibwBqO0S7intoTGihcZDKtz_Qm5SadPMKceh8dBofOg7n1Rw7hbuki2Vqr9UuRMmq1I6-SejrOKJMp29mC0gxNNUJMrHG84VBdXzCa34JNDXe2NWkK9-yk0YNLOZV-4YcWy-iJ5szS_mpFs5DbTyop8_Jg8M4aUxqIplE_B-FxC7gJDY_tPiZIXRR4uxci02iuuAhBgvG3MUhZ6dcVsa1kkUnxPC_arpA6Sk59A84YzdhxKqS9e1kJhzownDnbhHGoFaZI");'>
+</div>
+</div>
+</div>
+</section>
+<!-- Equipment Categories -->
+<section class="bg-ice-blue dark:bg-slate-900/50 py-16">
+<div class="max-w-[1200px] mx-auto px-4">
+<div class="flex items-center justify-between mb-8 px-4">
+<h2 class="text-[#0c141d] dark:text-white text-3xl font-bold tracking-tight uppercase border-l-4 border-primary pl-4">Equipment Categories</h2>
+<a class="text-primary text-sm font-bold uppercase tracking-widest hover:underline" href="#">View All Units</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-4">
+<!-- Category 1 -->
+<div class="flex flex-col gap-4 rounded bg-white dark:bg-background-dark p-6 border border-[#cddbea] dark:border-slate-700 hover:border-primary transition-colors group">
+<div class="text-primary" data-icon="thermometer">
+<span class="material-symbols-outlined text-4xl">thermometer</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#0c141d] dark:text-white text-lg font-bold uppercase tracking-tight">Thermal Units</h3>
+<p class="text-tech-gray dark:text-slate-400 text-sm leading-relaxed">Induction clusters with PID smart control systems and energy recovery.</p>
+</div>
+<div class="mt-auto pt-4 flex items-center text-primary text-xs font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                            View Specs <span class="material-symbols-outlined ml-2 text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Category 2 -->
+<div class="flex flex-col gap-4 rounded bg-white dark:bg-background-dark p-6 border border-[#cddbea] dark:border-slate-700 hover:border-primary transition-colors group">
+<div class="text-primary" data-icon="ac_unit">
+<span class="material-symbols-outlined text-4xl">ac_unit</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#0c141d] dark:text-white text-lg font-bold uppercase tracking-tight">Refrigeration</h3>
+<p class="text-tech-gray dark:text-slate-400 text-sm leading-relaxed">Multi-zone precision cooling with automated humidity monitoring.</p>
+</div>
+<div class="mt-auto pt-4 flex items-center text-primary text-xs font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                            View Specs <span class="material-symbols-outlined ml-2 text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Category 3 -->
+<div class="flex flex-col gap-4 rounded bg-white dark:bg-background-dark p-6 border border-[#cddbea] dark:border-slate-700 hover:border-primary transition-colors group">
+<div class="text-primary" data-icon="water_drop">
+<span class="material-symbols-outlined text-4xl">water_drop</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#0c141d] dark:text-white text-lg font-bold uppercase tracking-tight">Processing</h3>
+<p class="text-tech-gray dark:text-slate-400 text-sm leading-relaxed">High-efficiency washing cycles with filtration and chemical dosing.</p>
+</div>
+<div class="mt-auto pt-4 flex items-center text-primary text-xs font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                            View Specs <span class="material-symbols-outlined ml-2 text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Category 4 -->
+<div class="flex flex-col gap-4 rounded bg-white dark:bg-background-dark p-6 border border-[#cddbea] dark:border-slate-700 hover:border-primary transition-colors group">
+<div class="text-primary" data-icon="grid_view">
+<span class="material-symbols-outlined text-4xl">grid_view</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#0c141d] dark:text-white text-lg font-bold uppercase tracking-tight">Neutral Steel</h3>
+<p class="text-tech-gray dark:text-slate-400 text-sm leading-relaxed">Modular AISI 304/316 structures with seamless hygienic design.</p>
+</div>
+<div class="mt-auto pt-4 flex items-center text-primary text-xs font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                            View Specs <span class="material-symbols-outlined ml-2 text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Excellence Section -->
+<section class="max-w-[1200px] mx-auto px-4 py-20">
+<div class="flex flex-col md:flex-row gap-16">
+<div class="w-full md:w-1/3">
+<h2 class="text-3xl font-black uppercase tracking-tight mb-6">Technical <br/>Specifications</h2>
+<p class="text-tech-gray mb-8">Detailed documentation for engineers and project managers.</p>
+<ul class="flex flex-col gap-4">
+<li class="flex items-center gap-3 p-4 bg-ice-blue rounded-lg border-l-4 border-primary">
+<span class="material-symbols-outlined text-primary">description</span>
+<div class="flex flex-col">
+<span class="text-sm font-bold">2024 Tech Guide</span>
+<span class="text-xs text-tech-gray">PDF, 42MB</span>
+</div>
+</li>
+<li class="flex items-center gap-3 p-4 hover:bg-ice-blue transition-colors rounded-lg border-l-4 border-transparent hover:border-primary cursor-pointer">
+<span class="material-symbols-outlined text-primary">deployed_code</span>
+<div class="flex flex-col">
+<span class="text-sm font-bold">BIM / Revit Models</span>
+<span class="text-xs text-tech-gray">DWG/RFA Files</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-8">
+<div class="border-b border-ice-blue pb-6">
+<h4 class="text-primary text-4xl font-black mb-2">99.8%</h4>
+<p class="font-bold uppercase text-xs tracking-widest mb-2">Uptime Reliability</p>
+<p class="text-sm text-tech-gray">Industrial grade components rated for 24/7 heavy duty operation.</p>
+</div>
+<div class="border-b border-ice-blue pb-6">
+<h4 class="text-primary text-4xl font-black mb-2">35%</h4>
+<p class="font-bold uppercase text-xs tracking-widest mb-2">Energy Efficiency</p>
+<p class="text-sm text-tech-gray">Proprietary heat exchange technology reduces operational costs.</p>
+</div>
+<div class="border-b border-ice-blue pb-6">
+<h4 class="text-primary text-4xl font-black mb-2">IoT</h4>
+<p class="font-bold uppercase text-xs tracking-widest mb-2">Smart Management</p>
+<p class="text-sm text-tech-gray">Cloud-based monitoring and remote diagnostic capabilities.</p>
+</div>
+<div class="border-b border-ice-blue pb-6">
+<h4 class="text-primary text-4xl font-black mb-2">AISI</h4>
+<p class="font-bold uppercase text-xs tracking-widest mb-2">Material Standard</p>
+<p class="text-sm text-tech-gray">High-grade stainless steel for maximum hygiene and durability.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact & Interactive Map Section -->
+<section class="flex flex-col lg:flex-row w-full bg-white border-t border-[#e6edf4]">
+<!-- Lead Capture Form -->
+<div class="w-full lg:w-1/2 p-12 lg:p-20 flex flex-col justify-center">
+<div class="max-w-md mx-auto w-full">
+<span class="text-primary font-bold text-xs uppercase tracking-widest">Connect with our team</span>
+<h2 class="text-4xl font-black mb-8 mt-2 uppercase">Request a Proposal</h2>
+<form class="flex flex-col gap-6">
+<div class="grid grid-cols-1 gap-4">
+<div class="flex flex-col gap-1">
+<label class="text-xs font-bold uppercase text-tech-gray">Full Name</label>
+<input class="form-input border-b-2 border-ice-blue border-t-0 border-x-0 focus:border-primary focus:ring-0 px-0 py-2" placeholder="Johnathan Doe" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="text-xs font-bold uppercase text-tech-gray">Corporate Email</label>
+<input class="form-input border-b-2 border-ice-blue border-t-0 border-x-0 focus:border-primary focus:ring-0 px-0 py-2" placeholder="doe@corporate.com" type="email"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="text-xs font-bold uppercase text-tech-gray">Project Type</label>
+<select class="form-select border-b-2 border-ice-blue border-t-0 border-x-0 focus:border-primary focus:ring-0 px-0 py-2">
+<option>New Facility Design</option>
+<option>Equipment Upgrade</option>
+<option>Maintenance Contract</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="text-xs font-bold uppercase text-tech-gray">Brief Message</label>
+<textarea class="form-textarea border-b-2 border-ice-blue border-t-0 border-x-0 focus:border-primary focus:ring-0 px-0 py-2" placeholder="Describe your technical requirements..." rows="2"></textarea>
+</div>
+</div>
+<button class="bg-primary text-white font-bold uppercase tracking-widest py-4 rounded-lg hover:bg-blue-700 shadow-xl transition-all">
+                            Submit Project Details
+                        </button>
+</form>
+</div>
+</div>
+<!-- Interactive Map Area -->
+<div class="w-full lg:w-1/2 h-[500px] lg:h-auto bg-slate-200 relative overflow-hidden flex items-center justify-center">
+<div class="absolute inset-0 grayscale opacity-80" data-alt="Corporate headquarters map showing global locations" data-location="Berlin" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDBwhELtEGmW4a8kEDQPlfLtxkqDkSXp5B7RTwSjxJtmDJGb3u9EBTJfgy3SUvK-2-D11StFy_h0XkVeIaX46kjDH4S1q4nQKqQdNRzxfrSKEiSUDmHLI8vZbF9C-QkQy1lX-H4i3W8plL2DGwf6OKrTLlw90Z-22BMZQkbnKXI_pEc88yJKxTRYEVyC_Kl-v4dDUGyrR8bXNkvdFl9iNtkQWyvfFOl7mT2W3JqzjK03h_lH-IfH6WXs8_A4BLOuHwotW66UWvpeco"); background-size: cover; background-position: center;'></div>
+<div class="relative z-10 bg-white dark:bg-background-dark p-8 shadow-2xl border-l-4 border-primary">
+<h4 class="text-lg font-bold mb-4 uppercase tracking-tight">HQ Contact</h4>
+<div class="flex flex-col gap-3">
+<div class="flex gap-4 items-start">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span class="text-sm text-tech-gray">124 High-Tech Blvd, Innovation District<br/>Tech City, TC 90210</span>
+</div>
+<div class="flex gap-4 items-start">
+<span class="material-symbols-outlined text-primary">call</span>
+<span class="text-sm text-tech-gray">+1 (800) NOVIY-MIR</span>
+</div>
+<div class="flex gap-4 items-start">
+<span class="material-symbols-outlined text-primary">mail</span>
+<span class="text-sm text-tech-gray">support@noviymir.com</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-background-dark text-white py-12 border-t border-slate-800">
+<div class="max-w-[1200px] mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-3">
+<div class="size-5 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold">NOVIY MIR</h2>
+</div>
+<p class="text-slate-400 text-sm">Superior engineering for the global hospitality industry. ISO 9001 Certified.</p>
+</div>
+<div>
+<h5 class="font-bold mb-4 uppercase text-xs tracking-[0.2em] text-primary">Global Offices</h5>
+<ul class="text-sm text-slate-400 flex flex-col gap-2">
+<li>Berlin</li>
+<li>Tokyo</li>
+<li>New York</li>
+<li>Dubai</li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold mb-4 uppercase text-xs tracking-[0.2em] text-primary">Legal</h5>
+<ul class="text-sm text-slate-400 flex flex-col gap-2">
+<li>Privacy Policy</li>
+<li>Terms of Service</li>
+<li>Export Compliance</li>
+<li>Data Processing</li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold mb-4 uppercase text-xs tracking-[0.2em] text-primary">Newsletter</h5>
+<div class="flex gap-2">
+<input class="bg-slate-800 border-none rounded p-2 text-sm w-full" placeholder="Your email" type="email"/>
+<button class="bg-primary px-4 rounded text-xs font-bold">JOIN</button>
+</div>
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+                © 2024 Noviy Mir Engineering Group. All rights reserved.
+            </div>
+</div>
+</footer>
+</div>
+</body></html>
